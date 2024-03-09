@@ -1,0 +1,47 @@
+
+.seccionVideo .novedadesAge .seccion2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.seccionVideo svg,
+.novedadesAge svg,
+.seccion2 svg {
+    position: relative;
+    display: block;
+    width: 100%; /*para que ocupe el ancho completo del contenedor */
+}
+
+.seccionVideo .shape-fill {
+    fill: #222fa3;
+}
+.seccion2 .shape-fill {
+    fill: rgba(34,144,225,1);
+}
+.novedadesAge .shape-fill{
+    fill: #4CC9F0;
+}
+/*primnera division*/
+.custom-shape-divider-bottom-1708838596 {
+    position: relative;
+    bottom: -1vh;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1708838596 .shape-fill {
+    fill: #2256ae;
+}
+  /* Media query para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+    .seccion2 svg {
+    height: 60px;
+    }
+    
+}
